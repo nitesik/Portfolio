@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.92ea71fd.css",
+    "main.js": "/Portfolio/static/js/main.b80824ca.js",
+    "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/FyloDarkTheme.png": "/Portfolio/static/media/FyloDarkTheme.078d959b8e664ad7cf9f.png",
+    "static/media/InsureLandingPage.png": "/Portfolio/static/media/InsureLandingPage.de2d915317054673dca5.png",
+    "static/media/IntroSection.png": "/Portfolio/static/media/IntroSection.d82dad6d236080b50636.png",
+    "static/media/icon-github.svg": "/Portfolio/static/media/icon-github.376f746105559084ee856620094454e7.svg",
+    "index.html": "/Portfolio/index.html",
+    "static/media/icon-linkedin.svg": "/Portfolio/static/media/icon-linkedin.299a1d811c6c10d4964a7018ae43228e.svg",
+    "main.92ea71fd.css.map": "/Portfolio/static/css/main.92ea71fd.css.map",
+    "main.b80824ca.js.map": "/Portfolio/static/js/main.b80824ca.js.map",
+    "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.92ea71fd.css",
+    "static/js/main.b80824ca.js"
+  ]
+}
