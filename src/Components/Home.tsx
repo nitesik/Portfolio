@@ -7,7 +7,7 @@ import ExpensesChart from "./images/Projects/ExpensesChart.png";
 import FyloDarkTheme from "./images/Projects/FyloDarkTheme.png";
 import InsureLandingPage from "./images/Projects/InsureLandingPage.png";
 import InteractivePricing from "./images/Projects/InteractivePricing.png";
-import GitHubUserSearch from "./images/Projects/IntroSection.png";
+import GitHubUserSearch from "./images/Projects/GitHubUserSearch.png";
 import TipCalculator from "./images/Projects/TipCalculator.png";
 
 function Home() {
