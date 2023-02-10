@@ -7,7 +7,7 @@ import ExpensesChart from "./images/Projects/ExpensesChart.png";
 import FyloDarkTheme from "./images/Projects/FyloDarkTheme.png";
 import InsureLandingPage from "./images/Projects/InsureLandingPage.png";
 import InteractivePricing from "./images/Projects/InteractivePricing.png";
-import IntroSection from "./images/Projects/IntroSection.png";
+import GitHubUserSearch from "./images/Projects/IntroSection.png";
 import TipCalculator from "./images/Projects/TipCalculator.png";
 
 function Home() {
@@ -15,11 +15,20 @@ function Home() {
   const [projects, setProjects] = useState([
 
     {
+      name: "GitHub User Search",
+      src: GitHubUserSearch,
+      liveUrl: "https://nitesik.github.io/GitHubUserSearch/",
+      githubUrl: "https://github.com/nitesik/GitHubUserSearch",
+      tools: ["React"],
+      hover: false
+    },
+
+    {
       name: "Expenses Chart",
       src: ExpensesChart,
       liveUrl: "https://nitesik.github.io/ExpensesChartComponent/",
       githubUrl: "https://github.com/nitesik/ExpensesChartComponent",
-      tools: ["React"],
+      tools: ["React", "API"],
       hover: false
     },
 
@@ -51,22 +60,13 @@ function Home() {
     },
     
     {
-      name: "Intro Section",
-      src: IntroSection,
-      liveUrl: "https://nitesik.github.io/IntroSection/",
-      githubUrl: "https://github.com/nitesik/IntroSection",
-      tools: ["React"],
-      hover: false
-    },
-    
-    {
       name: "Tip Calculator",
       src: TipCalculator,
       liveUrl: "https://nitesik.github.io/TipCalculator/",
       githubUrl: "https://github.com/nitesik/TipCalculator",
       tools: ["React"],
       hover: false
-    },
+    }
   ])
 
   function updateProjectsHover(index : number) {
