@@ -11,6 +11,7 @@ a {
     color: white;
     padding: 39px 165px;
     font-weight: 700;
+    transition: all 500ms ease-in;
   }
   
   nav {
@@ -62,6 +63,7 @@ a {
     color: white;
     border-bottom: #4EE1A0 2px solid;
     width: fit-content;
+    transition: all 150ms ease-in-out;
   }
   
   .contactme:hover {
@@ -76,6 +78,7 @@ a {
     grid-template: 1fr 1fr / 1fr 1fr 1fr;
     border-top: 1px white solid;
     padding-top: 72px;
+    transition: all 500ms ease-in;
   }
   
   .title {
@@ -129,12 +132,18 @@ a {
   }
   
   .project-content .inner-image {
-    background-color: rgba(0, 0, 0, 0.6);
+    /* background-color: rgba(0, 0, 0, 0.6); */
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    transition: all 250ms ease-in-out;
+  }
+  
+  .project-content .inner-image:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+
   }
   
   footer {
@@ -195,6 +204,7 @@ a {
     color: white;
     padding: 30px;
     font-weight: 700;
+    transition: all 500ms ease-in;
   }
   
   nav {
@@ -251,6 +261,7 @@ a {
     color: white;
     border-bottom: #4EE1A0 2px solid;
     width: fit-content;
+    transition: all 150ms ease-in-out;
   }
   
   .contactme:hover {
@@ -266,6 +277,7 @@ a {
     border-top: 1px white solid;
     gap: 52px 7px;
     padding-top: 52px;
+    transition: all 500ms ease-in;
   }
   
   .skills .description {
@@ -328,6 +340,11 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+
+  .project-content .inner-image:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+
   }
 
   footer {
@@ -393,6 +410,7 @@ a {
     color: white;
     padding: 30px;
     font-weight: 700;
+    transition: all 1000ms ease-in;
   }
   
   nav {
@@ -467,6 +485,7 @@ a {
     border-top: 1px white solid;
     gap: 24px;
     padding-top: 52px;
+    transition: all 500ms ease-in;
   }
   
   .skills .description {
@@ -530,6 +549,11 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+
+  .project-content .inner-image:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+
   }
 
   footer {

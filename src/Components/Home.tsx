@@ -3,6 +3,8 @@ import "./Styles.css";
 import github from "./images/icon-github.svg";
 import linkedin from "./images/icon-linkedin.svg";
 
+import PlanetFactSite from "./images/Projects/PlanetFactSite.png";
+import DictionaryWebApp from "./images/Projects/DictionaryWebApp.png";
 import ExpensesChart from "./images/Projects/ExpensesChart.png";
 import FyloDarkTheme from "./images/Projects/FyloDarkTheme.png";
 import InsureLandingPage from "./images/Projects/InsureLandingPage.png";
@@ -24,20 +26,20 @@ function Home() {
     },
 
     {
-      name: "Expenses Chart",
-      src: ExpensesChart,
-      liveUrl: "https://nitesik.github.io/ExpensesChartComponent/",
-      githubUrl: "https://github.com/nitesik/ExpensesChartComponent",
+      name: "Planet Fact Site",
+      src: PlanetFactSite,
+      liveUrl: "https://nitesik.github.io/PlanetFactSite/",
+      githubUrl: "https://github.com/nitesik/PlanetFactSite",
       tools: ["React", "API"],
       hover: false
     },
 
     {
-      name: "Fylo Dark Theme",
-      src: FyloDarkTheme,
-      liveUrl: "https://nitesik.github.io/FyloDarkThemeLandingPage/",
-      githubUrl: "https://github.com/nitesik/FyloDarkThemeLandingPage",
-      tools: ["React"],
+      name: "Dictionary Web Application",
+      src: DictionaryWebApp,
+      liveUrl: "https://nitesik.github.io/DictionaryWebApp/",
+      githubUrl: "https://github.com/nitesik/DictionaryWebApp",
+      tools: ["React", "Material UI", "Dictionary API"],
       hover: false
     },
 
@@ -101,7 +103,7 @@ function Home() {
       <div className="intro">
         <div className="header">Nice to meet you!</div>
         <div className="header">I'm <span>Neetesh Chhetri</span>.</div>
-        <div className="description">Based in Bhutan, I'm a web developer who is passionate about building accessible web applications that users love.</div>
+        <div className="description">Currently in Greater Noida, UP, I'm a web developer who is passionate about building accessible web applications that users love.</div>
       </div>
 
       <a onClick={handleScroll}><div className="contactme">CONTACT ME</div></a>
