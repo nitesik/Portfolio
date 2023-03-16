@@ -5,6 +5,14 @@ a {
   cursor: pointer;
 }
 
+* {
+  transition: all 200ms ease-in-out;
+}
+
+img:hover {
+  transform: scale(1.2);
+}
+
 @media (min-width:1025px) {
   .container {
     font-family: 'Space Grotesk', sans-serif;
