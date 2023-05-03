@@ -116,6 +116,7 @@ img:hover {
     margin-top: 80px;
     /* justify-content: space-evenly; */
     justify-items: center;
+    transition: all 200ms ease-in-out;
   }
   
   .project-content .image {

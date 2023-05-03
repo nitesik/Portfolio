@@ -3,10 +3,10 @@ import "./Styles.css";
 import github from "./images/icon-github.svg";
 import linkedin from "./images/icon-linkedin.svg";
 
+import InbrowserMarkdown from "./images/Projects/InbrowserMarkdown.png";
+import IPAddressTracker from "./images/Projects/IPAddressTracker.png";
 import PlanetFactSite from "./images/Projects/PlanetFactSite.png";
 import DictionaryWebApp from "./images/Projects/DictionaryWebApp.png";
-import ExpensesChart from "./images/Projects/ExpensesChart.png";
-import FyloDarkTheme from "./images/Projects/FyloDarkTheme.png";
 import InsureLandingPage from "./images/Projects/InsureLandingPage.png";
 import InteractivePricing from "./images/Projects/InteractivePricing.png";
 import GitHubUserSearch from "./images/Projects/GitHubUserSearch.png";
@@ -15,6 +15,24 @@ import TipCalculator from "./images/Projects/TipCalculator.png";
 function Home() {
 
   const [projects, setProjects] = useState([
+
+    {
+      name: "Inbrowser Markdown",
+      src: InbrowserMarkdown,
+      liveUrl: "https://inbrowser-markdown-nitesik.vercel.app/",
+      githubUrl: "https://github.com/nitesik/InbrowserMarkdown",
+      tools: ["NextJs", "tRPC", "Prisma"],
+      hover: false
+    },
+
+    {
+      name: "IP Address Tracker",
+      src: IPAddressTracker,
+      liveUrl: "https://nitesik.github.io/IPAddressTracker/",
+      githubUrl: "https://github.com/nitesik/IPAddressTracker",
+      tools: ["React", "Vite"],
+      hover: false
+    },
 
     {
       name: "GitHub User Search",
@@ -40,24 +58,6 @@ function Home() {
       liveUrl: "https://nitesik.github.io/DictionaryWebApp/",
       githubUrl: "https://github.com/nitesik/DictionaryWebApp",
       tools: ["React", "Material UI", "Dictionary API"],
-      hover: false
-    },
-
-    {
-      name: "Insure Landing Page",
-      src: InsureLandingPage,
-      liveUrl: "https://nitesik.github.io/InsureLandingPage/",
-      githubUrl: "https://github.com/nitesik/InsureLandingPage",
-      tools: ["React"],
-      hover: false
-    },
-
-    {
-      name: "Interactive Pricing",
-      src: InteractivePricing,
-      liveUrl: "https://nitesik.github.io/InteractivePricingComponent/",
-      githubUrl: "https://github.com/nitesik/InteractivePricingComponent",
-      tools: ["React", "Material UI"],
       hover: false
     },
     
