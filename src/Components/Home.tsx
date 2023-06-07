@@ -7,10 +7,11 @@ import InbrowserMarkdown from "./images/Projects/InbrowserMarkdown.png";
 import IPAddressTracker from "./images/Projects/IPAddressTracker.png";
 import PlanetFactSite from "./images/Projects/PlanetFactSite.png";
 import DictionaryWebApp from "./images/Projects/DictionaryWebApp.png";
-import InsureLandingPage from "./images/Projects/InsureLandingPage.png";
-import InteractivePricing from "./images/Projects/InteractivePricing.png";
 import GitHubUserSearch from "./images/Projects/GitHubUserSearch.png";
 import TipCalculator from "./images/Projects/TipCalculator.png";
+import EntertainmentWebApp from "./images/Projects/EntertainmentWebApp.png";
+import AudiophileECommerce from "./images/Projects/AudiophileECommerce.png";
+import URLShortener from "./images/Projects/URLShortener.png";
 
 function Home() {
 
@@ -22,6 +23,33 @@ function Home() {
       liveUrl: "https://inbrowser-markdown-nitesik.vercel.app/",
       githubUrl: "https://github.com/nitesik/InbrowserMarkdown",
       tools: ["NextJs", "tRPC", "Prisma"],
+      hover: false
+    },
+
+    {
+      name: "Entertainment Web Application",
+      src: EntertainmentWebApp,
+      liveUrl: "https://entertainment-web-app-zeta.vercel.app/",
+      githubUrl: "https://github.com/nitesik/EntertainmentWebApp",
+      tools: ["NextJs", "Jotai"],
+      hover: false
+    },
+
+    {
+      name: "Audiophile E-Commerce",
+      src: AudiophileECommerce,
+      liveUrl: "https://audiophile-ecommerce-liard.vercel.app/",
+      githubUrl: "https://github.com/nitesik/AudiophileEcommerce",
+      tools: ["NextJs"],
+      hover: false
+    },
+
+    {
+      name: "URL Shortener",
+      src: URLShortener,
+      liveUrl: "https://nitesik.github.io/URLShortener/",
+      githubUrl: "https://github.com/nitesik/URLShortener",
+      tools: ["NextJs"],
       hover: false
     },
 
@@ -103,7 +131,7 @@ function Home() {
       <div className="intro">
         <div className="header">Nice to meet you!</div>
         <div className="header">I'm <span>Neetesh Chhetri</span>.</div>
-        <div className="description">Currently in Greater Noida, UP, I'm a web developer who is passionate about building accessible web applications that users love.</div>
+        <div className="description">Currently in Thimphu, Bhutan. I'm a web developer who is passionate about building accessible web applications that users love.</div>
       </div>
 
       <a onClick={handleScroll}><div className="contactme">CONTACT ME</div></a>

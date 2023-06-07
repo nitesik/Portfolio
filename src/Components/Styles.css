@@ -13,7 +13,7 @@ img:hover {
   transform: scale(1.2);
 }
 
-@media (min-width:1025px) {
+@media (min-width: 1300px) {
   .container {
     font-family: 'Space Grotesk', sans-serif;
     color: white;
@@ -207,7 +207,7 @@ img:hover {
   }
 }
 
-@media (max-width: 1024px) and (min-width: 600px) {
+@media (max-width: 1299px) and (min-width: 800px) {
   .container {
     font-family: 'Space Grotesk', sans-serif;
     color: white;
@@ -410,7 +410,7 @@ img:hover {
   }
 }
 
-@media (max-width: 599px) {
+@media (max-width: 799px) {
   .container {
     font-family: 'Space Grotesk', sans-serif;
     display: flex;
