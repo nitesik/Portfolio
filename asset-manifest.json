@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.54e3503e.css",
-    "main.js": "/Portfolio/static/js/main.bc4b174d.js",
+    "main.js": "/Portfolio/static/js/main.d81d59f0.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/EntertainmentWebApp.png": "/Portfolio/static/media/EntertainmentWebApp.e7b630263b35dd09852d.png",
     "static/media/AudiophileECommerce.png": "/Portfolio/static/media/AudiophileECommerce.5ab17d30fb1c3dc20fba.png",
@@ -10,16 +10,15 @@
     "static/media/URLShortener.png": "/Portfolio/static/media/URLShortener.3f340b28764151b4be61.png",
     "static/media/DictionaryWebApp.png": "/Portfolio/static/media/DictionaryWebApp.d3ddd96e430f1d081a88.png",
     "static/media/GitHubUserSearch.png": "/Portfolio/static/media/GitHubUserSearch.73f489f5af806ea83d19.png",
-    "static/media/IPAddressTracker.png": "/Portfolio/static/media/IPAddressTracker.08ee931f61e66bba7cd7.png",
     "static/media/icon-github.svg": "/Portfolio/static/media/icon-github.376f746105559084ee856620094454e7.svg",
     "index.html": "/Portfolio/index.html",
     "static/media/icon-linkedin.svg": "/Portfolio/static/media/icon-linkedin.299a1d811c6c10d4964a7018ae43228e.svg",
     "main.54e3503e.css.map": "/Portfolio/static/css/main.54e3503e.css.map",
-    "main.bc4b174d.js.map": "/Portfolio/static/js/main.bc4b174d.js.map",
+    "main.d81d59f0.js.map": "/Portfolio/static/js/main.d81d59f0.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.54e3503e.css",
-    "static/js/main.bc4b174d.js"
+    "static/js/main.d81d59f0.js"
   ]
 }
