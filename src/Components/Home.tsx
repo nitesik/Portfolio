@@ -54,15 +54,6 @@ function Home() {
     },
 
     {
-      name: "IP Address Tracker",
-      src: IPAddressTracker,
-      liveUrl: "https://nitesik.github.io/IPAddressTracker/",
-      githubUrl: "https://github.com/nitesik/IPAddressTracker",
-      tools: ["React", "Vite"],
-      hover: false
-    },
-
-    {
       name: "GitHub User Search",
       src: GitHubUserSearch,
       liveUrl: "https://nitesik.github.io/GitHubUserSearch/",
