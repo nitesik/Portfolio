@@ -129,6 +129,7 @@ img:hover {
   .project-content .title {
     margin-top: 20px;
     font-size: 24px;
+    text-decoration: underline;
   }
   
   .project-content .tools {
@@ -331,6 +332,7 @@ img:hover {
   .project-content .title {
     margin-top: 20px;
     font-size: 24px;
+    text-decoration: underline;
   }
   
   .project-content .tools {
@@ -540,6 +542,7 @@ img:hover {
   .project-content .title {
     margin-top: 20px;
     font-size: 24px;
+    text-decoration: underline;
   }
   
   .project-content .tools {

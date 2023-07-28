@@ -164,7 +164,7 @@ function Home() {
                   <a href={project.githubUrl} target="_blank"><div className="contactme">VIEW CODE</div></a>
                 </div>}
               </div>
-              <div className="title">{project.name}</div>
+              <div className="title"><a target="_blank" href={project.liveUrl}>{project.name}</a></div>
               <div className="tools">{project.tools.map((tool, index) => (
                 <div key={index} className="tool">{tool}</div>
               ))}</div>
